@@ -1,7 +1,7 @@
 # Slash Commands
-
+  
 These slash commands provide a shortcut for managing our agent skills repository.
-
+  
 ## /skills setup
 Use this command to initialize the skills repository.
 - This will prompt you to provide or confirm the `SKILLS_REPO_PATH`.
@@ -9,7 +9,8 @@ Use this command to initialize the skills repository.
 - It will check for and install the `gh` CLI if it's missing.
 - It will check for GitHub authentication and prompt for `gh auth login` if necessary.
 - It will update the metadata and configuration if necessary.
-
+- **Final Report**: Upon completion, display a summary table showing the status (Success/Failure) of each check.
+  
 ## /skills update
 Use this command to refresh the list of available skills.
 - This will scan the repository for all `.md` files.
@@ -17,3 +18,10 @@ Use this command to refresh the list of available skills.
 - It will list the newly discovered skills and their descriptions.
 - **Branch Safety**: Before performing any updates/pulls, check that the current branch is `main`. If it is not `main`, notifications will be sent to the user and no updates will be fetched/pulled.
 - **Note**: After updating, you may need to start a new session for the latest skill definitions to be fully integrated into the agent's primary context.
+  
+## /skills help
+Use this command to view the list of available slash commands and their usage.
+- It will list all slash commands.
+- Provide a brief description for each.
+- Provide an example call for each command.
+- List any required arguments for each command.
