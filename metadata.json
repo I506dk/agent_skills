@@ -1,7 +1,7 @@
 {
   "name": "agent_skills",
-  "version": "0.1.0",
-  "description": "Collection of agent skills for various languages and tasks.",
+  "version": "0.2.0",
+  "description": "Collection of agent skills for various languages and tasks. Updated with GitHub authorship and help_command improvements.",
   "license": "MIT",
   "last_updated": "2026-10-27"
 }
