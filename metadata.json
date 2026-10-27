@@ -1,7 +1,7 @@
 {
   "name": "agent_skills",
-  "version": "0.2.0",
-  "description": "Collection of agent skills for various languages and tasks. Updated with GitHub authorship and help_command improvements.",
+  "version": "0.3.0",
+  "description": "Collection of agent skills for various languages and tasks. Includes Podman support.",
   "license": "MIT",
   "last_updated": "2026-10-27"
 }

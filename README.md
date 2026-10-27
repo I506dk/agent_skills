@@ -35,4 +35,5 @@ You have access to a local repository of skills at `{{SKILLS_REPO_PATH}}`.
 ## Available Skills
 - `python`: For writing, refactoring, and reviewing Python code.
 - `github`: For managing GitHub repositories, branches, and pull requests.
+- `podman`: For managing Podman containers and images.
 - `setup_skills`: For managing and loading other skills in this repository.
