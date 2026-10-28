@@ -1,6 +1,6 @@
-# agent_skills
+# Agent Skills
   
-Collection of agent skills for various languages and tasks.
+Collection of agent skills for various languages, tools, and tasks.
   
 ## Slash Commands
 - `/skills setup`: Initialize the skills repository.
